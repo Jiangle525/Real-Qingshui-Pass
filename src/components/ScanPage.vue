@@ -61,7 +61,7 @@ export default {
     const video = document.getElementById("video")
     setupVideo(video).then(() => {
       setTimeout(() => {
-        this.$router.replace('./sq')
+        this.$router.replace('./qr')
       }, 1000)
     }).catch(() => {
       alert("打开摄像头出错！")
